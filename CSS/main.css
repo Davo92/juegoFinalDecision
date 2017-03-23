@@ -1,0 +1,81 @@
+body{ 
+    color: #666;
+    font-family: sans-serif;
+    background: gray;
+    border: 10px solid black;
+    font-family: 'gothic', 'Audiowide', cursive;
+    color: white;
+    height: 38em;
+}
+
+.center{
+    text-align: center;
+}
+
+#contenedor{
+    align-content: 240px;
+    max-width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.menu{
+    background-color: #fff;
+    border:1px solid #ccc;
+    box-shadow: 0 0 15px 4px black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background:url("http://images.cryhavok.org/d/14761-2/Black+Background+Wood+1+by+Freeman.jpg");
+}
+
+.menu h3{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#romano, #vikingo, #persa{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(http://cur.cursors-4u.net/sports/spo-1/spo15.cur);
+    background: rgba(113, 113, 113, 0.55);
+    
+}
+
+#np1, #np2, #np3{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(http://cur.cursors-4u.net/sports/spo-1/spo15.cur);
+    background: rgba(113, 113, 113, 0.55);
+    
+}
+
+#romano:hover, #vikingo:hover, #persa:hover{
+    background: green;
+}
+
+#np1:hover, #np2:hover, #np3:hover{
+    background: red;
+}
+
+/*Cursor con forma de espada o prohibido al pasar por encima de las cartas tuyas o de la CPU*/
+#romano:hover, #vikingo:hover, #persa:hover {
+    cursor: url(http://cur.cursors-4u.net/sports/spo-1/spo15.cur), progress !important;
+}
+
+#np1:hover, #np2:hover, #np3:hover {
+    cursor:no-drop;
+}
